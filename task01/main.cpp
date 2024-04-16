@@ -78,7 +78,7 @@ void draw_polygon(
         winding_number += angle_diff;
       }
       const int int_winding_number = int(std::round(winding_number));
-      if (int_winding_number == 1 ) { // if (x,y) is inside the polygon
+      if (int_winding_number != 0 ) { // if (x,y) is inside the polygon
         img_data[ih*width + iw] = brightness;
       }
     }
