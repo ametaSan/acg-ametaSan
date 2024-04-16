@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\CMakeFiles\a31ef2da720a84a719594646b4a11821\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5FE836A-12F9-363E-89CE-8F98CDD25F8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

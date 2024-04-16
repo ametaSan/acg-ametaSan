@@ -1,0 +1,16 @@
+﻿  main.cpp
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\..\external\stb_image_write.h(776,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(61,57): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(61,57): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(74,35): warning C4305: '-=': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(76,35): warning C4305: '+=': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(105,22): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(131,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(132,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(133,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(134,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(135,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(136,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(137,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\main.cpp(138,54): warning C4305: 'argument': truncation from 'double' to 'float'
+  task01.vcxproj -> D:\_MASTER of UT\courses\S2\Applied Computer Graphics -Umetani\assignments\acg-ametaSan\task01\task01\Release\task01.exe

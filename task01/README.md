@@ -123,4 +123,3 @@ got to the GitHub webpage `https://github.com/ACG-2024S/acg-<username>` . If eve
   - Do not commit intermediate files. Make sure you are correctly doing the **"out-of-source build"** If necessary edit the `.gitignore` file to remove the intermediate files.
 - When something does wrong, consider doing from scratch (start from `git clone`).  
 
-
