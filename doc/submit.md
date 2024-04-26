@@ -8,7 +8,11 @@ There are many small programming assignments. These assignements needs to be sub
 
 ![](../doc/githubclassroom.png)
 
+<<<<<<< HEAD
 The assignments need to be submitted using "pullrequest" functionality of the GitHub. Using the system called "GitHub Classroom", each student makes his/her own private repository that is a copy of "https://github.com/ACG-2022S/acg". If a student has a GitHub account named `<username>`, the name of the repository will be `acg-<username>`. The private repository is only visible from the student and the instructor. In the second class, It will be shown how to make your own class repository using GitHub classroom. 
+=======
+The assignments need to be submitted using "pullrequest" functionality of the GitHub. Using the system called "GitHub Classroom", each student makes his/her own private repository that is a copy of "https://github.com/ACG-2024S/acg". If a student has a GitHub account named `<username>`, the name of the repository will be `acg-<username>`. The private repository is only visible from the student and the instructor. In the second class, It will be shown how to make your own class repository using GitHub classroom. 
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 
 
 
@@ -39,7 +43,11 @@ First of all, you need to setup C++ Probramming environment (git, cmake, c++ com
 If you don't have the local repository in your computer, clone it from the remote repository
 
 ```bash
+<<<<<<< HEAD
 $ git clone https://github.com/ACG-2022S/acg-<username>.git
+=======
+$ git clone https://github.com/ACG-2024S/acg-<username>.git
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 ```
 
 **Before doing each assignment**, synchronize the local repository to the remote repository.
@@ -112,7 +120,11 @@ git push --set-upstream origin task01  # update the task1 branch of the remote r
 
 ## Make a Pull Request
 
+<<<<<<< HEAD
 Go to the GitHub webpage `https://github.com/ACG-2022S/acg-<username>` . If everything looks good on this page, make a pull request. 
+=======
+Go to the GitHub webpage `https://github.com/ACG-2024S/acg-<username>` . If everything looks good on this page, make a pull request. 
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 
 ![](../doc/pullrequest.png)
 

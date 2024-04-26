@@ -16,6 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+<<<<<<< HEAD
     - name: install glfw
       run: |
         git submodule update --init -- external/glfw
@@ -23,6 +24,16 @@ jobs:
         cd external/glfwbuild
         cmake --build . --config Release
         cmake --install . --prefix ../glfwlib
+=======
+
+    #- name: install glfw
+    #  run: |
+    #    git submodule update --init -- external/glfw
+    #    cmake -S external/glfw -B external/glfwbuild
+    #    cd external/glfwbuild
+    #    cmake --build . --config Release
+    #    cmake --install . --prefix ../glfwlib
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 
     - name: get eigen
       run: |

@@ -110,8 +110,11 @@ got to the GitHub webpage `https://github.com/ACG-2024S/acg-<username>` . If eve
 
 ![](../doc/pullrequest.png)
 
+<<<<<<< HEAD
 P.S. This task has been pushed again to make the pull request.
 
+=======
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 
 ----
 
@@ -125,3 +128,7 @@ P.S. This task has been pushed again to make the pull request.
   - Do not commit intermediate files. Make sure you are correctly doing the **"out-of-source build"** If necessary edit the `.gitignore` file to remove the intermediate files.
 - When something does wrong, consider doing from scratch (start from `git clone`).  
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706

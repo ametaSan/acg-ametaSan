@@ -16,6 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+<<<<<<< HEAD
     - name: install glfw
       run: |
         sudo apt install -y \
@@ -26,6 +27,18 @@ jobs:
         cd external/glfwbuild
         cmake --build . --config Release
         cmake --install . --prefix ../glfwlib
+=======
+    #- name: install glfw
+    #  run: |
+    #    sudo apt install -y \
+    #      libwayland-dev libxkbcommon-dev wayland-protocols extra-cmake-modules \
+    #      libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+    #    git submodule update --init -- external/glfw
+    #    cmake -S external/glfw -B external/glfwbuild
+    #    cd external/glfwbuild
+    #    cmake --build . --config Release
+    #    cmake --install . --prefix ../glfwlib
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 
     - name: install eigen
       run: |

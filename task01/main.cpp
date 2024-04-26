@@ -3,14 +3,22 @@
 #include <cassert>
 #include <vector>
 #include <filesystem>
+<<<<<<< HEAD
+=======
+#define _USE_MATH_DEFINES
+#include <cmath>
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 //
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
+<<<<<<< HEAD
 #ifndef M_PI
 #define M_PI 3.14159265358979323846264338327950288
 #endif 
 
+=======
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 /**
  * @brief compute the area of a triangle
  * @return area
@@ -69,6 +77,7 @@ void draw_polygon(
         float p1x = polygon_xy[i1_vtx * 2 + 0] - x;
         float p1y = polygon_xy[i1_vtx * 2 + 1] - y;
         // write a few lines of code to compute winding number (hint: use atan2)
+<<<<<<< HEAD
         float angle_diff = std::atan2(p1y, p1x) - std::atan2(p0y, p0x);
         if (angle_diff > M_PI) {
             angle_diff -= 2 * M_PI;
@@ -79,6 +88,11 @@ void draw_polygon(
       }
       const int int_winding_number = int(std::round(winding_number));
       if (int_winding_number != 0 ) { // if (x,y) is inside the polygon
+=======
+      }
+      const int int_winding_number = int(std::round(winding_number));
+      if (int_winding_number == 1 ) { // if (x,y) is inside the polygon
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
         img_data[ih*width + iw] = brightness;
       }
     }
@@ -100,6 +114,7 @@ void dda_line(
     unsigned int width,
     unsigned char brightness ) {
   auto dx = x1 - x0;
+<<<<<<< HEAD
   auto dy = y1 - y0;  // didn't set them integer at first, for correction..?
   // write some code below to paint pixel on the line with color `brightness`
   unsigned int steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
@@ -117,6 +132,10 @@ void dda_line(
       x += x_increment;
       y += y_increment;
   }
+=======
+  auto dy = y1 - y0;
+  // write some code below to paint pixel on the line with color `brightness`
+>>>>>>> 36fc4f41918a6d0596fc513e64995c05ee886706
 }
 
 int main() {
