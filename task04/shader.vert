@@ -20,13 +20,12 @@ void main()
         vec3 org = vec3(-0.3, 0.0, -0.5); // point on the mirror
         // wite code to change the input position (x0,y0,z0).
         // the transformed position (x0, y0, z0) should be drawn as the mirror reflection.
-        //
-        // make sure the occlusion is correctly computed.
-        // the mirror is behind the armadillo, so the reflected image should be behind the armadillo.
-        // furthermore, make sure the occlusion is correctly computed for the reflected image.
-        //x0 = ???
-        //y0 = ???
-        //z0 = ???
+        vec3 incident = vec3(x0, y0, z0);
+        vec3 reflection = incident - 2.0 * dot(incident - org,nrm) * nrm;
+        x0 = reflection.x;
+        y0 = reflection.y;
+        z0 = reflection.z;
+        z0+=0.5;
     }
     // do not edit below
 
