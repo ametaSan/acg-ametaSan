@@ -10,9 +10,7 @@ import moderngl_window as mglw
 from PIL import Image, ImageOps
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
-#
 import util_for_task09
-
 
 def matrix_graph_laplacian(tri2vtx, num_vtx):
     '''
@@ -138,7 +136,21 @@ class HelloWorld(mglw.WindowConfig):
         # L is the graph Laplacian matrix a.k.a `self.matrix_laplace`
         # you may use `spsolve` to solve the liner system
         # spsolve: https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.spsolve.html#scipy.sparse.linalg.spsolve
+        # Implement Laplacian mesh deformation
 
+
+        # Laplacian deformation
+        # A = self.matrix_fix + self.matrix_laplace
+        # b = self.matrix_fix @ self.vtx2xyz_def + self.matrix_laplace @ self.vtx2xyz_ini
+        # for i in range(3):
+        #     self.vtx2xyz_def[:, i] = spsolve(A, b[:, i])
+
+
+        # Bi-Laplacian deformation
+        A = self.matrix_fix + self.matrix_laplace @ self.matrix_laplace
+        b = self.matrix_fix @ self.vtx2xyz_def + self.matrix_laplace @ self.matrix_laplace @ self.vtx2xyz_ini
+        for i in range(3):
+            self.vtx2xyz_def[:, i] = spsolve(A, b[:, i])
 
         # do not edit beyond here
         # above: deformation
